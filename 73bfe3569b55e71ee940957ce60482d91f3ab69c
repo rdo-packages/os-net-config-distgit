@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_826d4f07",
+        "filename": "os-net-config.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2016-09-14T09:54:17Z",
+      "side": 1,
+      "message": "This should be upstream_version, right?",
+      "range": {
+        "startLine": 9,
+        "startChar": 58,
+        "endLine": 9,
+        "endChar": 65
+      },
+      "revId": "73bfe3569b55e71ee940957ce60482d91f3ab69c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
