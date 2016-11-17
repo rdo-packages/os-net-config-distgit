@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5adbc538_94874c61",
+        "filename": "os-net-config.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 85
+      },
+      "writtenOn": "2016-11-17T21:56:13Z",
+      "side": 0,
+      "message": "Requires: python-pbr",
+      "revId": "34c4afbb4e38f8e6d451b997d2f5d8145138074c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
