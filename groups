@@ -1,6 +1,6 @@
 # UUID                                  	Group Name
 #
 5b92ec1a862c37de3544f3349561fed1452c4a3b	openstack/os-net-config-distgit-ptl
-d56dd86818d57fd07676ad49a7b31d6f7aa4bcd7	openstack/os-net-config-distgit-core
 63673ea7f2ae6a5666566b1ea9f14e473d00f5a9	rdo-core
+d56dd86818d57fd07676ad49a7b31d6f7aa4bcd7	openstack/os-net-config-distgit-core
 global:Registered-Users                 	Registered Users
