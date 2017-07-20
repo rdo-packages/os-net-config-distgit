@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9aa7fdbe_d95aba82",
+        "filename": "os-net-config.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2017-07-20T07:40:24Z",
+      "side": 1,
+      "message": "it should be \u003e\u003d 3.10",
+      "range": {
+        "startLine": 33,
+        "startChar": 20,
+        "endLine": 33,
+        "endChar": 26
+      },
+      "revId": "010b35218ac10f0daf9b0825a751bda55eba8a1f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
