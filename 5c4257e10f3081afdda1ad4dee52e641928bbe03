@@ -1,0 +1,10 @@
+Code-Review+1: Saravanan K R <skramaja@redhat.com>
+Code-Review+2: hguemar <hguemar@fedoraproject.org>
+Code-Review+2: chkumar246 <chkumar@redhat.com>
+Workflow+1: chkumar246 <chkumar@redhat.com>
+Verified+2: Javier Peña <jpena@redhat.com>
+Submitted-by: Javier Peña <jpena@redhat.com>
+Submitted-at: Thu, 15 Feb 2018 14:00:19 +0000
+Reviewed-on: https://review.rdoproject.org/r/12172
+Project: openstack/os-net-config-distgit
+Branch: refs/heads/rpm-master
