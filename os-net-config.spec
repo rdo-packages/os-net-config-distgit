@@ -56,3 +56,4 @@ Host network configuration tool for OpenStack.
 
 
 %changelog
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/os-net-config/commit/?id=214701aa21b4de9ecdb8381e7c98ed342b650e34
