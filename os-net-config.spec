@@ -29,6 +29,10 @@ BuildRequires:	python2-devel
 BuildRequires:	python2-pbr
 BuildRequires:	python2-sphinx
 BuildRequires:	python2-oslo-sphinx
+BuildRequires:	python2-six
+BuildRequires:	python2-PyYAML
+BuildRequires:	python2-jsonschema
+BuildRequires:	python-pyudev
 
 Requires:	python-anyjson >= 0.3.3
 Requires:	python2-eventlet >= 0.18.2
@@ -50,6 +54,10 @@ BuildRequires:	python3-devel
 BuildRequires:	python3-pbr
 BuildRequires:	python3-sphinx
 BuildRequires:	python3-oslo-sphinx
+BuildRequires:	python3-six
+BuildRequires:	python3-PyYAML
+BuildRequires:	python3-jsonschema
+BuildRequires:	python3-pyudev
 
 Requires:	python3-anyjson >= 0.3.3
 Requires:	python3-eventlet >= 0.18.2
@@ -87,6 +95,13 @@ Host network configuration tool for OpenStack.
 %{py2_install}
 %else
 %{py3_install}
+%endif
+
+%check
+%if 0%{?with_python3} == 0
+%{__python2} setup.py test
+%else
+%{__python3} setup.py test
 %endif
 
 %files
