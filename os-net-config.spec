@@ -89,6 +89,13 @@ Host network configuration tool for OpenStack.
 %{py3_install}
 %endif
 
+%check
+%if 0%{?with_python3} == 0
+%{__python2} setup.py test
+%else
+%{__python3} setup.py test
+%endif
+
 %files
 %doc README.rst
 %doc LICENSE
