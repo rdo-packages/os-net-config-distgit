@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9abe1de1_a992df55",
+        "filename": "os-net-config.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 87
+      },
+      "writtenOn": "2018-08-08T09:35:04Z",
+      "side": 1,
+      "message": "|| 0%{?rhel} \u003e\u003d 8\n\nAnd F24 is long EOLed so we can just assume that all fedora are fine.",
+      "revId": "ae561acc3d71eb13c81d8593717055b18a1daf84",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_09ab0b8b",
+        "filename": "os-net-config.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 87
+      },
+      "writtenOn": "2018-08-08T09:35:04Z",
+      "side": 1,
+      "message": "the \u003d\u003d 0 means that you\u0027re either building py2 or py3 variant of the package.\nIf this is what you intended, then please wait that we define guidelines for services.",
+      "revId": "ae561acc3d71eb13c81d8593717055b18a1daf84",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
