@@ -1,0 +1,9 @@
+Code-Review+2: Emilien Macchi <emilien@redhat.com>
+Code-Review+2: chkumar246 <chkumar@redhat.com>
+Workflow+1: chkumar246 <chkumar@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Mon, 14 Jan 2019 06:21:55 +0000
+Reviewed-on: https://review.rdoproject.org/r/18185
+Project: openstack/os-net-config-distgit
+Branch: refs/heads/queens-rdo
