@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b284b333_a2eb886c",
+        "filename": "os-net-config.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2019-05-13T06:52:10Z",
+      "side": 1,
+      "message": "good to update this as well when removing oslosphinx:- sphinx-build-%{pyver} -W -b html doc/source doc/build/html",
+      "range": {
+        "startLine": 73,
+        "startChar": 0,
+        "endLine": 73,
+        "endChar": 34
+      },
+      "revId": "ac26b9c3301e0bb1c0d869f221bbe69905f59d5b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
