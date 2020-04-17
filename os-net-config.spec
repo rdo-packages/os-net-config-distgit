@@ -69,7 +69,9 @@ Host network configuration tool for OpenStack.
 
 %build
 %{pyver_build}
-%{pyver_bin} setup.py build_sphinx
+sphinx-build-%{pyver} -W -b html doc/source doc/build/html
+# Fix hidden-file-or-dir warnings
+rm -fr doc/build/html/.{doctrees,buildinfo}
 
 %install
 %{pyver_install}
