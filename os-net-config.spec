@@ -4,8 +4,8 @@
 
 
 Name:			os-net-config
-Version:		12.6.0
-Release:		2%{?dist}
+Version:		13.0.0
+Release:		1%{?dist}
 Summary:		Host network configuration tool
 
 License:		ASL 2.0
@@ -85,6 +85,9 @@ rm -fr doc/build/html/.{doctrees,buildinfo}
 %{python3_sitelib}/os_net_config*
 
 %changelog
+* Fri Oct 30 2020 RDO <dev@lists.rdoproject.org> 13.0.0-1
+- Update to 13.0.0
+
 * Tue Oct 20 2020 Joel Capitao <jcapitao@redhat.com> 12.6.0-2
 - Enable sources tarball validation using GPG signature.
 
