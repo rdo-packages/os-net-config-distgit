@@ -16,6 +16,24 @@
       "revId": "6e13d35d8def4a6f41830685b1a7f709bc54ee3b",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "29ff2ee3_8b6dc374",
+        "filename": "os-net-config.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 713
+      },
+      "writtenOn": "2020-11-26T07:31:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b9882998_b09bc0c2",
+      "revId": "6e13d35d8def4a6f41830685b1a7f709bc54ee3b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
