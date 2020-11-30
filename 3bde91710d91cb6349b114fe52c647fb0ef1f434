@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff990e19_b7220f92",
+        "filename": "os-net-config.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2020-11-30T07:26:20Z",
+      "side": 0,
+      "message": "We can only remove this part otherwise rpmbuild will fail",
+      "range": {
+        "startLine": 78,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 53
+      },
+      "revId": "3bde91710d91cb6349b114fe52c647fb0ef1f434",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
