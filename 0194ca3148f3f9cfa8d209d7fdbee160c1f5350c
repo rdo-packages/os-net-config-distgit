@@ -22,6 +22,30 @@
       "revId": "0194ca3148f3f9cfa8d209d7fdbee160c1f5350c",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c8f00717_f1e8c91f",
+        "filename": "os-net-config.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 303
+      },
+      "writtenOn": "2021-04-26T05:22:17Z",
+      "side": 1,
+      "message": "No this will likely not be a thing for el9. we\u0027ll have to fix that once that\u0027s available",
+      "parentUuid": "8ba85df6_016a8c33",
+      "range": {
+        "startLine": 56,
+        "startChar": 12,
+        "endLine": 56,
+        "endChar": 27
+      },
+      "revId": "0194ca3148f3f9cfa8d209d7fdbee160c1f5350c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
     }
   ]
 }
