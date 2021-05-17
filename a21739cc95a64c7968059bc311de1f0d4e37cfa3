@@ -1,0 +1,9 @@
+Code-Review+2: Alfredo Moralejo <amoralej@redhat.com>
+Code-Review+2: Alex Schultz <aschultz@next-development.com>
+Workflow+1: Alfredo Moralejo <amoralej@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Mon, 17 May 2021 15:35:21 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/os-net-config-distgit/+/33720
+Project: openstack/os-net-config-distgit
+Branch: refs/heads/rpm-master
