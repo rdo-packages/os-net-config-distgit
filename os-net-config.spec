@@ -95,3 +95,4 @@ rm -fr doc/build/html/.{doctrees,buildinfo}
 * Wed May 05 2021 RDO <dev@lists.rdoproject.org> 14.1.0-1
 - Update to 14.1.0
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/os-net-config/commit/4b642817d0168352b37eacbd3f081a33b30ec8c1
