@@ -90,3 +90,4 @@ rm -fr doc/build/html/.{doctrees,buildinfo}
 * Thu May 07 2020 RDO <dev@lists.rdoproject.org> 12.2.0-1
 - Update to 12.2.0
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/os-net-config/commit/e15af3bbb52fefea63fc72381b82a3d12ac04819
