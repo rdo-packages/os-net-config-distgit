@@ -88,3 +88,4 @@ rm -fr doc/build/html/.{doctrees,buildinfo}
 %{python3_sitelib}/os_net_config*
 
 %changelog
+# REMOVEME: error caused by commit https://opendev.org/openstack/os-net-config/commit/9ef27075ebebd27288cb8dd1859ff9e6aacca4f9
