@@ -51,12 +51,6 @@ Requires:	python3-pyudev >= 0.16.1
 # RHEL8 requires a network-scripts package for ifcfg backwards compatibility
 Requires:   network-scripts
 %endif
-%if 0%{?rhel} >= 8
-# Needed for NetworkManager support
-Requires:	NetworkManager-ovs
-Requires:	nmstate
-Requires:	nispor
-%endif
 
 %description
 Host network configuration tool for OpenStack.
