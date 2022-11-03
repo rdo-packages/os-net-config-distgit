@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x2426b928085a020d8a90d0d879ab7008d0896c8a
+%global sources_gpg_sign 0xa7475c5f2122fec3f90343223fe3bf5aad1080e4
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 # we are excluding some BRs from automatic generator
 %global excluded_brs doc8 bandit pre-commit hacking flake8-import-order bashate
@@ -11,8 +11,8 @@
 
 
 Name:			os-net-config
-Version:		XXX
-Release:		XXX
+Version:		16.0.0
+Release:		2%{?dist}
 Summary:		Host network configuration tool
 
 License:		Apache-2.0
@@ -69,6 +69,9 @@ sed -i "s/^deps = -c{env:.*_CONSTRAINTS_FILE.*/deps =/" tox.ini
 sed -i /^minversion.*/d tox.ini
 sed -i /^requires.*virtualenv.*/d tox.ini
 
+# (TODO) There is no pyroute2>=0.7.10 in fedora yet.
+sed -i 's/pyroute2>=0.7.10/pyroute2>=0.7.3/g' requirements.txt
+
 # Exclude some bad-known BRs
 for pkg in %{excluded_brs}; do
   for reqfile in doc/requirements.txt test-requirements.txt; do
@@ -116,4 +119,10 @@ rm -fr doc/build/html/.{doctrees,buildinfo}
 %{python3_sitelib}/os_net_config*
 
 %changelog
+* Mon May 06 2024 RDO <dev@lists.rdoproject.org> 16.0.0-2
+- Update to 16.0.0
+- Add os-net-config-dcb executable
+- Build in Caracal
 
+* Thu Nov 03 2022 RDO <dev@lists.rdoproject.org> 16.0.0-1
+- Update to 16.0.0
