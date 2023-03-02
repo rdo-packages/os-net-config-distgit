@@ -56,6 +56,8 @@ Requires:   network-scripts
 Requires:	NetworkManager-ovs
 Requires:	nmstate
 Requires:	nispor
+Requires:	python3-libnmstate
+Requires:	nmstate-libs
 %endif
 
 %description
