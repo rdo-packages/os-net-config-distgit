@@ -22,6 +22,30 @@
       },
       "revId": "722c140435d745ef98ed987f30b476d406b050e0",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ea53efcc_c0c5ada3",
+        "filename": "os-net-config.spec",
+        "patchSetId": 7
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-07-31T15:53:56Z",
+      "side": 1,
+      "message": "FTR it comes from bindeps and it is required to run unit tests",
+      "parentUuid": "5ac3494f_608b3d28",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 48,
+        "endChar": 18
+      },
+      "revId": "722c140435d745ef98ed987f30b476d406b050e0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
