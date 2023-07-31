@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ac3494f_608b3d28",
+        "filename": "os-net-config.spec",
+        "patchSetId": 7
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-07-31T15:46:13Z",
+      "side": 1,
+      "message": "where did you get this list from?",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 48,
+        "endChar": 18
+      },
+      "revId": "722c140435d745ef98ed987f30b476d406b050e0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
