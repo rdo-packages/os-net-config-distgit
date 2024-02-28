@@ -16,6 +16,24 @@
       "message": "I proposed a patch upstream [1] and tested it on CBS [2]\n\n[1] https://src.fedoraproject.org/rpms/python-pyroute2/pull-request/16\n[2] https://cbs.centos.org/koji/taskinfo?taskID\u003d3852864",
       "revId": "0840009d48c5648d37a351c140e8e3e5c2d42417",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1b0e63e_c41f4765",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-02-28T11:06:45Z",
+      "side": 1,
+      "message": "Thanks!",
+      "parentUuid": "92aafbbd_d8c1c743",
+      "revId": "0840009d48c5648d37a351c140e8e3e5c2d42417",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
