@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "92aafbbd_d8c1c743",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-02-28T10:37:37Z",
+      "side": 1,
+      "message": "I proposed a patch upstream [1] and tested it on CBS [2]\n\n[1] https://src.fedoraproject.org/rpms/python-pyroute2/pull-request/16\n[2] https://cbs.centos.org/koji/taskinfo?taskID\u003d3852864",
+      "revId": "0840009d48c5648d37a351c140e8e3e5c2d42417",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
