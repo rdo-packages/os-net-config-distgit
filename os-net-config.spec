@@ -43,6 +43,7 @@ Requires:	python3-oslo-utils >= 3.33.0
 Requires:	python3-netaddr >= 0.7.13
 Requires:	python3-pbr >= 2.0.0
 Requires:	python3-jsonschema >= 3.2.0
+Requires:	python3-pyroute2 >= 7.3.0
 
 Requires:	python3-PyYAML >= 3.10
 Requires:	python3-pyudev >= 0.16.1
@@ -82,6 +83,7 @@ rm -fr doc/build/html/.{doctrees,buildinfo}
 %doc LICENSE
 %doc doc/build/html
 %{_bindir}/os-net-config
+%{_bindir}/os-net-config-dcb
 %{_bindir}/os-net-config-sriov
 %{_bindir}/os-net-config-sriov-bind
 %{python3_sitelib}/os_net_config*
