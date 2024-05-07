@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb11a7c5_8ae9fae5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-05-07T11:17:36Z",
+      "side": 1,
+      "message": "Waiting for upstream to issue a new release",
+      "revId": "6a58112da1c2333d766defabda21bc73f2519744",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
