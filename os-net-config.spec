@@ -37,6 +37,7 @@ BuildRequires:	python3-pbr
 BuildRequires:	python3-sphinx
 BuildRequires:	python3-openstackdocstheme
 
+<<<<<<< HEAD   (5e8afc Add os-net-config-dcb executable)
 Requires:	python3-oslo-concurrency >= 3.26.0
 Requires:	python3-oslo-config
 Requires:	python3-oslo-utils >= 3.33.0
@@ -44,6 +45,13 @@ Requires:	python3-netaddr >= 0.7.13
 Requires:	python3-pbr >= 2.0.0
 Requires:	python3-jsonschema >= 3.2.0
 Requires:	python3-pyroute2 >= 0.7.3
+=======
+Requires:	initscripts
+Requires:	iproute
+Requires:	ethtool
+Requires:	dhclient
+Requires: 	mstflint
+>>>>>>> CHANGE (14ca5a Add mstflint package as a Requires)
 
 Requires:	python3-PyYAML >= 3.10
 Requires:	python3-pyudev >= 0.16.1
