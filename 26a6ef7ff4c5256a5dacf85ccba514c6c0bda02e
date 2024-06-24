@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "828e9dd0_c0545347",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2024-06-24T07:00:33Z",
+      "side": 1,
+      "message": "Required for backports in https://github.com/os-net-config/os-net-config/tree/stable/wallaby\n\n8-stream is EOL so jobs needs to be fixed",
+      "revId": "26a6ef7ff4c5256a5dacf85ccba514c6c0bda02e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
