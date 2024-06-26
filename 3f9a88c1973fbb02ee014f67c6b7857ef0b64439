@@ -1,0 +1,9 @@
+Code-Review+2: Viji Candappa <vcandapp@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Workflow+1: Viji Candappa <vcandapp@redhat.com>
+Code-Review+2: Yatin Karel <ykarel@redhat.com>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Wed, 26 Jun 2024 05:20:37 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/os-net-config-distgit/+/53566
+Project: openstack/os-net-config-distgit
+Branch: refs/heads/wallaby-rdo
