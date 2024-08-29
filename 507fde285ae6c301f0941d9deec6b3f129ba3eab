@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a45e192f_97718c3e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2024-08-29T06:54:22Z",
+      "side": 1,
+      "message": "https://logserver.rdoproject.org/18/54218/2/check/DLRN-rpmbuild-centos9/7b6aff4/buildset/centos9/repos/d2/3a/d23a4f2a1182fbfd7db10261a57b826c27a60715_dev/rpmbuild.log.gz\n```\nDEBUG: Error: \nDEBUG:  Problem: conflicting requests\nDEBUG:   - nothing provides python3.9dist(pyroute2) \u003e\u003d 0.7.10 needed by os-net-config-14.2.1-0.20240829063826.d23a4f2.el9.noarch from @commandline\nDEBUG: (try to add \u0027--skip-broken\u0027 to skip uninstallable packages)\nDEBUG: Child return code was: 1\n```",
+      "revId": "507fde285ae6c301f0941d9deec6b3f129ba3eab",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
