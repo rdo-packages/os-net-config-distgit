@@ -36,6 +36,12 @@ BuildRequires:	python3-devel
 BuildRequires:	python3-pbr
 BuildRequires:	python3-sphinx
 BuildRequires:	python3-openstackdocstheme
+# Needed for downsteam test runs
+BuildRequires:  nmstate
+BuildRequires:  NetworkManager-ovs
+BuildRequires:  python3-libnmstate
+BuildRequires:  nmstate-libs
+BuildRequires:  mstflint
 
 Requires:	python3-eventlet >= 0.18.2
 Requires:	python3-oslo-concurrency >= 3.8.0
@@ -86,6 +92,7 @@ rm -fr doc/build/html/.{doctrees,buildinfo}
 %doc LICENSE
 %doc doc/build/html
 %{_bindir}/os-net-config
+%{_bindir}/os-net-config-dcb
 %{_bindir}/os-net-config-sriov
 %{_bindir}/os-net-config-sriov-bind
 %{python3_sitelib}/os_net_config*
