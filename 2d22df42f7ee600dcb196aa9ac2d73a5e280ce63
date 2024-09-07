@@ -1,0 +1,8 @@
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Workflow+1: Chandan Kumar <chkumar@redhat.com>
+Code-Review+2: Chandan Kumar <chkumar@redhat.com>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Sat, 07 Sep 2024 00:43:24 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/os-net-config-distgit/+/54300
+Project: openstack/os-net-config-distgit
+Branch: refs/heads/wallaby-rdo
