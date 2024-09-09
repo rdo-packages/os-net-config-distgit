@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "548ed2e9_2cfa7771",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 363
+      },
+      "writtenOn": "2024-09-09T17:40:57Z",
+      "side": 1,
+      "message": "DNM; need libnmstate fix for s390x as well",
+      "revId": "aba65db7a34801e48461ed2789f8f7486b946b78",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
