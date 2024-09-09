@@ -16,6 +16,23 @@
       "message": "The requirement for mstflint is already in the spec file for wallaby as of c7d7b1a4. Furthermore, upper-constraints for pyroute2 is 0.6.6 for Wallaby.",
       "revId": "2507141bd73da6673a10a3121bbaf24652c90889",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "31a2a05d_df9b30ae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 363
+      },
+      "writtenOn": "2024-09-09T19:30:58Z",
+      "side": 1,
+      "message": "Ah, this is superseded by change-id: Ie5c80b99f8bf699250567111cfb1223f60fb6cbe",
+      "revId": "2507141bd73da6673a10a3121bbaf24652c90889",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
