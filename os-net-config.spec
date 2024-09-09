@@ -40,7 +40,6 @@ BuildRequires:	python3-openstackdocstheme
 BuildRequires:  nmstate
 BuildRequires:  NetworkManager-ovs
 BuildRequires:  python3-libnmstate
-BuildRequires:  nmstate-libs
 
 Requires:	python3-eventlet >= 0.18.2
 Requires:	python3-oslo-concurrency >= 3.8.0
