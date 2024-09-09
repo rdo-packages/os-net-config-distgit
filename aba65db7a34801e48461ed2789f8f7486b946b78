@@ -16,6 +16,24 @@
       "message": "DNM; need libnmstate fix for s390x as well",
       "revId": "aba65db7a34801e48461ed2789f8f7486b946b78",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee986632_3b19c954",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 363
+      },
+      "writtenOn": "2024-09-09T19:24:44Z",
+      "side": 1,
+      "message": "Not needed; just need to not build on that arch. The resulting RPM is noarch.",
+      "parentUuid": "548ed2e9_2cfa7771",
+      "revId": "aba65db7a34801e48461ed2789f8f7486b946b78",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
