@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dbf4418a_d237ee2b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 363
+      },
+      "writtenOn": "2024-09-09T17:14:24Z",
+      "side": 1,
+      "message": "I think we don\u0027t need this on master - wallaby-rdo is the only place where we have any use for RHEL8 stuff",
+      "revId": "953f5c7ac22341a70d921e571f88cf5bf928454f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
