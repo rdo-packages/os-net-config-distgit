@@ -30,7 +30,6 @@ BuildRequires:	NetworkManager-ovs
 BuildRequires:	iproute
 BuildRequires:	ethtool
 BuildRequires:	nmstate
-BuildRequires:	nmstate-libs
 BuildRequires:	python3-libnmstate
 BuildRequires:	nispor
 
