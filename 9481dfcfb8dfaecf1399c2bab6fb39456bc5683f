@@ -16,6 +16,24 @@
       "message": "This needed for anything after wallaby? That\u0027s the last release we seem to worry about RHEL8 on...",
       "revId": "9481dfcfb8dfaecf1399c2bab6fb39456bc5683f",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "442f1ac9_b476c734",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-09-10T07:54:15Z",
+      "side": 1,
+      "message": "At RDO, we don\u0027t build any packages for CS8 since end of may of this year (EOL of CS8).\nBut still, this patch is useful for member of the communities who want to build it on their own for RHEL-8 alike system (e.g Alma Linux, Rocky Linux, etc).\nSo I\u0027m in favor to backport it until Wallaby",
+      "parentUuid": "c4dc270d_76c96729",
+      "revId": "9481dfcfb8dfaecf1399c2bab6fb39456bc5683f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
