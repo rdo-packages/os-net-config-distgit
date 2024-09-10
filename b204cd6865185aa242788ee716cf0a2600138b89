@@ -1,0 +1,9 @@
+Code-Review+1: Lon Hohberger <lon@metamorphism.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Code-Review+2: Karolina Kula <kkula@redhat.com>
+Workflow+1: Joel Capitao <jcapitao@redhat.com>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Tue, 10 Sep 2024 15:15:22 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/os-net-config-distgit/+/54325
+Project: openstack/os-net-config-distgit
+Branch: refs/heads/caracal-rdo
