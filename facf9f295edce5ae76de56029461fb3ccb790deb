@@ -1,0 +1,8 @@
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Code-Review+2: Karolina Kula <kkula@redhat.com>
+Workflow+1: Karolina Kula <kkula@redhat.com>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Fri, 13 Sep 2024 10:31:30 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/os-net-config-distgit/+/54329
+Project: openstack/os-net-config-distgit
+Branch: refs/heads/bobcat-rdo
