@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1cbf7c1f_b1e9ed69",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 512
+      },
+      "writtenOn": "2024-09-14T01:09:38Z",
+      "side": 1,
+      "message": "Added the fix https://github.com/os-net-config/os-net-config/pull/75/commits/f135bf30459c2617022090fe08a2119d03037dc2.",
+      "revId": "5079283a11cd055767620c7dd9d8de28a64fe57b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
