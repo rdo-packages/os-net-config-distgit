@@ -121,3 +121,4 @@ rm -fr doc/build/html/.{doctrees,buildinfo}
 * Wed May 05 2021 RDO <dev@lists.rdoproject.org> 14.1.0-1
 - Update to 14.1.0
 
+# REMOVEME: error caused by commit https://github.com/os-net-config/os-net-config/commit/1c1b16d2914f934ea4bee946d962b3153d3cb3cc
