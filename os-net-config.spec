@@ -40,7 +40,6 @@ BuildRequires:	nmstate
 BuildRequires:  nmstate-libs
 %endif
 BuildRequires:	python3-libnmstate
-BuildRequires:	nispor
 
 Requires:	initscripts
 Requires:	iproute
@@ -52,7 +51,6 @@ Requires: 	mstflint
 Requires:	NetworkManager-ovs
 Requires:	nmstate
 Requires:	python3-libnmstate
-Requires:	nispor
 
 %description
 Host network configuration tool for OpenStack.
