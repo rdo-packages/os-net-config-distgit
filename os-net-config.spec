@@ -44,7 +44,11 @@ BuildRequires:	python3-libnmstate
 Requires:	initscripts
 Requires:	iproute
 Requires:	ethtool
+%if 0%{?rhel} >= 10
+Requires:	dhcpcd
+%else
 Requires:	dhclient
+%endif
 Requires: 	mstflint
 
 # Needed for NetworkManager support
