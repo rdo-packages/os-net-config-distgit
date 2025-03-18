@@ -12,13 +12,13 @@
 
 
 Name:			os-net-config
-Version:		XXX
-Release:		XXX
+Version:		18.0.1
+Release:		1%{?dist}
 Summary:		Host network configuration tool
 
 License:		Apache-2.0
 URL:			http://pypi.python.org/pypi/%{name}
-Source0:		%{pypi_source}
+Source0:		https://github.com/os-net-config/os-net-config/archive/%{upstream_version}/%{name}-%{upstream_version}.tar.gz
 BuildArch:	noarch
 %if 0%{?rhel} || 0%{?centos}
 # The mstflint package does not have builds for these architectures
@@ -60,7 +60,7 @@ Requires:	python3-libnmstate
 Host network configuration tool for OpenStack.
 
 %prep
-%autosetup -n %{tarsources}-%{upstream_version} -S git
+%autosetup -n %{name}-%{upstream_version} -S git
 
 sed -i /^[[:space:]]*-c{env:.*_CONSTRAINTS_FILE.*/d tox.ini
 sed -i "s/^deps = -c{env:.*_CONSTRAINTS_FILE.*/deps =/" tox.ini
@@ -114,4 +114,7 @@ rm -fr doc/build/html/.{doctrees,buildinfo}
 %{python3_sitelib}/os_net_config*
 
 %changelog
+* Tue Mar 18 2025 RDO <dev@lists.rdoproject.org> 18.0.1-1
+- Update to 18.0.1
+
 
