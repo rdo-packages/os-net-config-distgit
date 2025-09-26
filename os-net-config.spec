@@ -115,3 +115,4 @@ rm -fr doc/build/html/.{doctrees,buildinfo}
 
 %changelog
 
+# REMOVEME: error caused by commit https://github.com/os-net-config/os-net-config/commit/a2cffd9a756476131a121c8acb7ba2c1f896aa45
