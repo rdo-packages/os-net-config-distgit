@@ -55,7 +55,7 @@ Requires:	python3-libnmstate
 Requires:	nispor
 
 %description
-Host network configuration tool for OpenStack.
+Declarative network configuration tool for hosts.
 
 %prep
 %autosetup -n %{tarsources}-%{upstream_version} -S git
