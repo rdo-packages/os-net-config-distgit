@@ -57,7 +57,7 @@ Requires:	nmstate
 Requires:	python3-libnmstate
 
 %description
-Host network configuration tool for OpenStack.
+Declarative network configuration tool for hosts.
 
 %prep
 %autosetup -n %{name}-%{upstream_version} -S git
