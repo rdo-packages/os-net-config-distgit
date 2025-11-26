@@ -63,7 +63,7 @@ Requires:	python3-libnmstate
 Requires:	nispor
 
 %description
-Host network configuration tool for OpenStack.
+Declarative network configuration tool for hosts.
 
 %prep
 # Required for tarball sources verification
