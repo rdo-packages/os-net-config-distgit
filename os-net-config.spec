@@ -71,7 +71,7 @@ Requires:   network-scripts
 %endif
 
 %description
-Host network configuration tool for OpenStack.
+Declarative network configuration tool for hosts.
 
 %prep
 # Required for tarball sources verification
