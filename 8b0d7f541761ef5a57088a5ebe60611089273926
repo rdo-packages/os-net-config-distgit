@@ -1,0 +1,9 @@
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Code-Review+2: Karthik Sundaravel <karthik.sundaravel@gmail.com>
+Workflow+1: Karthik Sundaravel <karthik.sundaravel@gmail.com>
+Code-Review+2: Chandan Kumar <chkumar@redhat.com>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Fri, 28 Nov 2025 13:56:22 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/os-net-config-distgit/+/58520
+Project: openstack/os-net-config-distgit
+Branch: refs/heads/rpm-master
